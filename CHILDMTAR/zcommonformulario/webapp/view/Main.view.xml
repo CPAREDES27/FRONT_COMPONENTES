@@ -1,0 +1,33 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout" controllerName="zcommonformulario.controller.Main">
+	<l:VerticalLayout id="_IDGenVerticalLayout1" class="sapUiContentPadding" width="100%">
+		<Label id="_IDGenLabel1" text="Nombre" labelFor="inputText" />
+		<Input
+			id="inputText"
+			placeholder="Enter text"
+			class="sapUiSmallMarginBottom" value="{modelGeneral>/nombre}"/>
+
+		<Label id="_IDGenLabel2" text="Apellido" labelFor="inputEmail" />
+		<Input
+			id="inputEmail"
+			
+			placeholder="Enter email"
+			class="sapUiSmallMarginBottom" value="{modelGeneral>/apellido}"/>
+
+		<Label id="_IDGenLabel3" text="Dni" labelFor="inputTel" />
+		<Input
+			id="inputTel"
+			
+			placeholder="Enter telephone number"
+			class="sapUiSmallMarginBottom" value="{modelGeneral>/dni}" />
+
+		<Label id="_IDGenLabel4" text="Edad" labelFor="inputNumber" />
+		<Input
+			id="inputNumber"
+			
+			placeholder="Enter a number"
+			class="sapUiSmallMarginBottom" value="{modelGeneral>/edad}" />		
+	</l:VerticalLayout>
+</mvc:View>

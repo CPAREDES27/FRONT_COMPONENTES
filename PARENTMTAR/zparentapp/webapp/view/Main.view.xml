@@ -1,0 +1,39 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="xts.com.zparentapp.controller.Main" class="sapUiSizeCompact">
+	<IconTabBar
+		id="tabBar"
+		expanded="{device>/isNoPhone}"
+		 select="onTab" applyContentPadding="true" expandable="false" class="sapUiTinyMarginTop" stretchContentHeight="true">
+		<items>
+			<IconTabFilter id="_IDGenIconTabFilter1" icon="sap-icon://hint" key="_IDGenIconTabFilter1" design="Vertical" showAll="false" textDirection="Inherit" enabled="true"
+                                     visible="true" iconDensityAware="false">
+                                     <VBox id="_IDGenVBox1" class="sapUiSmallMargin">
+		<Text id="_IDGenText1" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
+	</VBox>
+				
+			</IconTabFilter>
+			<IconTabFilter id="_IDGenIconTabFilter2"
+				icon="sap-icon://attachment"
+				key="_IDGenIconTabFilter2"
+				count="3" design="Vertical" showAll="false" textDirection="Inherit" enabled="true"
+                                     visible="true" iconDensityAware="false">
+                                     
+				 <VBox id="_IDGenVBox2" class="sapUiSmallMargin">
+		<Input id="inputNumber_edad" placeholder="Enter a number" class="sapUiSmallMarginBottom" value="{modelGeneral>/edad}"/>	
+	</VBox>
+			</IconTabFilter>
+			<IconTabFilter id="_IDGenIconTabFilter3"
+				icon="sap-icon://notes"
+				key="_IDGenIconTabFilter3"
+				count="12" design="Vertical" showAll="false" textDirection="Inherit" enabled="true"
+                                     visible="true" iconDensityAware="false">
+			
+			</IconTabFilter>
+			<IconTabFilter id="_IDGenIconTabFilter4" icon="sap-icon://group" key="_IDGenIconTabFilter4" design="Vertical" showAll="false" textDirection="Inherit" enabled="true"
+                                     visible="true" iconDensityAware="false">
+						 <VBox id="_IDGenVBox4" class="sapUiSmallMargin">
+		<Text id="_IDGenText4" text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat" />
+	</VBox>
+			</IconTabFilter>
+		</items>
+	</IconTabBar>
+</mvc:View>
